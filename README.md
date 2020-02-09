@@ -1,14 +1,1 @@
-# XML-JSON-converter
-Use static method "convert(String fileName)" of Converter class to convert XML to JSON and vice versa.
-There are some another functions that can help you like nodeToJson(Node node) and nodeToXML(Node node).
-Node is the adapter structure into which JSON and XML are parsed to.
-Converter supports arrays and attributes in JSON(And XML of course).
-JSON: 
-{
-  "data" : {
-    "@attr" : "attrVal",
-    "#data" : "someVal"
-  }
-}
-XML:
-<data attr = "attrVal">someVal</data>
+# XML-JSON-converter1. Use static method "convert(String fileName)" of Converter class to convert XML to JSON and vice versa.2. There are some another functions that can help you like nodeToJson(Node node) and nodeToXML(Node node).3. Node is the adapter structure into which JSON and XML are parsed to.4. Converter supports arrays and attributes in JSON(And XML of course).##JSON: ```{  	"data" : {  		"@attr" : "attrVal",  		"#data" : "someVal"  	}  }```##XML:```<data attr = "attrVal">someVal</data>```
